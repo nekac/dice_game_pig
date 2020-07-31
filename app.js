@@ -45,7 +45,7 @@ document.querySelector(".btn-roll").addEventListener("click", () => {
     // display the result
     const diceNumber = document.querySelector(".dice");
     diceNumber.style.display = "block";
-    diceNumber.src = diceValue + ".png";
+    diceNumber.src = "images/" + diceValue + ".png";
 
     // update score for all values except value 1
     if (diceValue !== 1) {
